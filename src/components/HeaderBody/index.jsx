@@ -3,7 +3,7 @@ import "./index.css";
 // import Image from "../imges";
 import { ReactComponent as Twitter } from "../../images/twitter.svg";
 import { ReactComponent as LinkedIn } from "../../images/linkedin.svg";
-import ProfileImg from "../../images/newimage.jpg";
+import ProfileImg from "../../images/ibrahim.webp";
 const HeadBody = () => {
   return (
     <div className="bodyWrapper">
