@@ -1,0 +1,38 @@
+.FooterWrapper {
+  height: 145px;
+  background: #07102c;
+  color: white;
+  padding: 80px;
+}
+.FooterContentWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.columnOne {
+  width: 40%;
+  height: 1px;
+  background: grey;
+}
+.columnThree {
+  width: 40%;
+  height: 1px;
+  background: grey;
+}
+.text {
+  font-family: "Manrope";
+  font-style: normal;
+  width: 300px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 27px;
+  margin: 0 37px;
+}
+.Iconn{
+  text-align: center;
+  margin-top: 34px;
+}
+.copy{
+  text-align: center;
+  margin-top: 20px;
+}

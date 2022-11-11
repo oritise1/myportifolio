@@ -1,0 +1,11 @@
+.services {
+    width: fit-content;
+    padding: 80px;
+}
+.render{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 33% 35% 33%;
+    column-gap: 41px;
+    row-gap: 15px;
+}

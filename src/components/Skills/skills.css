@@ -1,0 +1,41 @@
+.SkillsWrapper {
+  padding: 80px;
+}
+.skills {
+  width: 427px;
+  height: 9px;
+  background: #d3dcf8;
+  position: relative;
+  left: 86px;
+  top: -20px;
+}
+.skillbar {
+  margin-right: 12px;
+  background-color: #2351dc;
+  bottom: 0;
+  height: 9px;
+  left: 0px;
+  /* position: absolute; */
+  width: 90%;
+}
+.html {
+  position: absolute;
+  width: 427px;
+  height: 41px;
+  left: 0px;
+  top: -60px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.unreender {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 48% 49%;
+  column-gap: 25px;
+  row-gap: 15px;                                                          
+} 

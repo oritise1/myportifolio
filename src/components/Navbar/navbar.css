@@ -1,0 +1,47 @@
+.HeaderWrapper {
+    margin: 29px 120px;
+    position: relative;
+}
+
+.Title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-right: 98px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+}
+.LinkWrapper {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 33% 38% 37%;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: bisque;
+}
+li {
+    margin-right: 30px;
+}
+.IconWrapper {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: auto;
+}
+.twitter {
+    margin-right: 24px;
+}
+  

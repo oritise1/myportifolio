@@ -1,0 +1,73 @@
+.ContactWrapper {
+  display: flex;
+  height: 623px;
+}
+.LeftWrapper {
+  width: 60%;
+  padding: 80px;
+}
+.RightWrapper {
+  width: 40%;
+  background: #1c41b0;
+  padding: 80px;
+}
+.CIconWrapper {
+  display: flex;
+  width: 43%;
+  justify-content: space-between;
+}
+.headerOne {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 10px;
+}
+.headerTwo {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 38px;
+  letter-spacing: -0.03em;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.input {
+  background: #1c41b0;
+  border-style: none;
+  height: 32px;
+  width: 427px;
+  outline: none;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+.btn {
+  width: 203px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.Non {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #737373;
+}
+.On {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
