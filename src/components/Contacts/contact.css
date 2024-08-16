@@ -1,6 +1,6 @@
 .ContactWrapper {
   display: flex;
-  height: 623px;
+  justify-content: space-between;
 }
 .LeftWrapper {
   width: 60%;

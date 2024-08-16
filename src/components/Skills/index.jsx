@@ -4,12 +4,7 @@ import "./skills.css";
 import { ReactComponent as Html } from "../../images/html.svg";
 import { ReactComponent as JavaScript } from "../../images/javascript.svg";
 const Skills = () => {
-    // const list =[
-    //     {
-    //         lang: 'HTML',
-    //         images: <Html />
-    //     }
-    // ]
+  
   return (
     <div className="SkillsWrapper">
       <Words text="My Skills" subtext="Here are a few skills I possess" />

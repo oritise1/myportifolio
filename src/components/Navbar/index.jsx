@@ -8,19 +8,20 @@ import "./navbar.css";
 export const Navbar = () => {
   return (
     <div className="HeaderWrapper">
-      <div className="LinkWrapper">
-        <h2 className="Title">Ibrahim AbdulKareem.</h2>
+      <div>
+        <h2 className="Title">Ibrahim AbdulKareem <span style={{color:'blue'}}>.</span></h2>
+        </div>
         <div>
-          <ul>
-          <a href="#about"><li>About Me</li></a>
-          <a href="#service"><li>Services</li></a>
-          <a href="#Lorem_Ipsum"><li>Projects</li></a>
-          <a href="#contact"><li>Contact Me</li></a>
-          </ul>
+          <nav>
+          <a href="#about">About Me</a>
+          <a href="#service">Services</a>
+          <a href="#Lorem_Ipsum">Projects</a>
+          <a href="#contact">Contact Me</a>
+          </nav>
         </div>
         <div className="IconWrapper">
         <a
-              href="https://twitter.com/oritise_success"
+              href="https://twitter.com/oritse__success"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -31,7 +32,6 @@ export const Navbar = () => {
             </a>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -2,3 +2,8 @@
     background-color: #D3DCF8;
     margin-top: -30px;
 }
+@media only screen and (max-width: 1200px)  {
+    .header {
+        width: 1230px;
+    }
+}

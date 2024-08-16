@@ -9,10 +9,10 @@ const About = () => {
         <Words 
             center
             text='About Me' 
-            subtext="AbdulKaree Ibrahim is a passionate and goal driven Techpreneur whose interest is in using technology to build solutions to  solve real world problems."/>
+            subtext="AbdulKareem Ibrahim is a passionate and goal driven Techpreneur whose interest is in using technology to build solutions to  solve real world problems."/>
         <div className='Icons'>
         <a
-              href="https://twitter.com/oritise_success"
+              href="https://twitter.com/oritse__success"
               target={"_blank"}
               rel="noreferrer"
             >

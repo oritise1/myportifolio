@@ -1,9 +1,8 @@
 import React from "react";
 import "./index.css";
-// import Image from "../imges";
 import { ReactComponent as Twitter } from "../../images/twitter.svg";
 import { ReactComponent as LinkedIn } from "../../images/linkedin.svg";
-import ProfileImg from "../../images/ibrahim.webp";
+import ProfileImg from "../../images/image1.jpg";
 const HeadBody = () => {
   return (
     <div className="bodyWrapper">
@@ -15,7 +14,7 @@ const HeadBody = () => {
           code·
         </h4>
         <a
-          href="https://twitter.com/oritise_success"
+          href="https://twitter.com/oritse__success"
           target={"_blank"}
           rel="noreferrer"
         >
@@ -27,7 +26,7 @@ const HeadBody = () => {
       </div>
       <div className="right">
         <div >
-          <img src={ProfileImg} id="profile__img" alt="img" className="immg" />
+          <img src={ProfileImg}  id="profile__img" alt="Ibrahim profile img" className="immg" />
         </div>
       </div>
     </div>

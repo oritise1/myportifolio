@@ -1,47 +1,37 @@
 .HeaderWrapper {
-    margin: 29px 120px;
-    position: relative;
+    width: auto;
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Title {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 1.875em;
     line-height: 41px;
     letter-spacing: -0.03em;
     color: #000000;
     margin-right: 98px;
 }
-ul {
-    list-style: none;
-    display: flex;
-    cursor: pointer;
-}
-.LinkWrapper {
-    align-items: center;
-    display: grid;
-    grid-template-columns: 33% 38% 37%;
-    column-gap: 10px;
-    row-gap: 15px;
+nav {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 400;
 }
 a:link {
     text-decoration: none;
-}
-a:hover {
-    color: bisque;
-}
-li {
     margin-right: 30px;
 }
-.IconWrapper {
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    height: auto;
+a:hover {
+    color: rgb(196, 255, 206);
 }
 .twitter {
     margin-right: 24px;
 }
-  
+@media only screen and (max-width: 1200px)  {
+    .HeaderWrapper {
+        width: 1010px;
+    }
+}

@@ -17,7 +17,7 @@ const Contact = () => {
         <div style={{ margin: "20px 0" }}>
           <div className="Icons">
             <a
-              href="https://twitter.com/oritise_success"
+              href="https://twitter.com/oritse__success"
               target={"_blank"}
               rel="noreferrer"
             >
@@ -36,11 +36,11 @@ const Contact = () => {
               <p className="Non">Send a message Anytime!</p>
             </div>
           </div>
-          <div className="CIconWrapper" style={{ marginTop: 32, width: "36%" }}>
+          <div className="CIconWrapper" style={{ marginTop:"32px", width: "28%" }}>
             <Phone />
             <div>
-              <p className="On">+234-8031-664882 </p>
-              <p className="Non">Send a message Anytime!</p>
+              <p className="On">+234-9067-813147 </p>
+              <p className="Non">Call the Phone Anytime!</p>
             </div>
           </div>
         </div>

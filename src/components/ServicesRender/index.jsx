@@ -24,7 +24,8 @@ const Services = () => {
             subtext="I offer Information technology consulting as a field of activity focused on advising organizations on how best to use information technology in achieving their business objectives."
           />
         </div>
-        <div><Development />
+        <div>
+          <Development />
           <Words
             text="Web Development."
             subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus."

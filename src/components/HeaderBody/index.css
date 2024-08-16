@@ -1,17 +1,18 @@
 .bodyWrapper {
   display: flex;
-  height: 550px;
-  top: 0px;
+  justify-content: space-between;
+  height: 450px;
+  padding: 0 8%;
 }
 .there {
-  margin-top: 163px;
+  margin-top: 100px;
   margin-bottom: 12px;
   width: 86px;
   height: 25px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.1em;
   line-height: 20px;
   letter-spacing: 0.03em;
   color: #2351dc;
@@ -23,7 +24,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 33px;
   letter-spacing: 0.03em;
   color: #2351dc;
@@ -37,7 +38,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 1.875em;
   line-height: 70px;
   letter-spacing: -0.03em;
   color: #000000;
@@ -54,14 +55,15 @@
 }
 .left {
   width: 60%;
-  margin-left: 110px;
-  margin-top: -65px;
 }
 .immg {
-  width: 364px;
-    height: 415px;
+  width: 320px;
+    height: 320px;
     border-radius: 50%;
-    /* top: 307px; */
-    margin-left: -40px;
-    margin-top: -66px;
+    margin-left: -20px;
+}
+@media only screen and (max-width: 1200px)  {
+  .bodyWrapper {
+      width: 980px;
+  }
 }
