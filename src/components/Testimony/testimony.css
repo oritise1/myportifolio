@@ -5,12 +5,11 @@
 }
 .textt {
     width: 300px;
-    /* height: 126px; */
     margin-top: 50%;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 700;
-    font-size: 46px;
+    font-size: 2.875em;
     line-height: 63px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
@@ -22,4 +21,9 @@
 .RighttWrapper {
     width: 70%;
     padding: 80px;
+}
+@media only screen and (max-width: 600px)  {
+    .ContctWrapper {
+        width: 1240px;
+    }
 }

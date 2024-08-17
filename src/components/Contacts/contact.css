@@ -71,3 +71,8 @@
   line-height: 22px;
   color: #000000;
 }
+@media only screen and (max-width: 600px)  {
+  .ContactWrapper {
+      width: 1240px;
+  }
+}

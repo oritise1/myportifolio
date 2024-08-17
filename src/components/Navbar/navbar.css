@@ -30,8 +30,8 @@ a:hover {
 .twitter {
     margin-right: 24px;
 }
-@media only screen and (max-width: 1200px)  {
+@media only screen and (max-width: 600px)  {
     .HeaderWrapper {
-        width: 1010px;
+        width: 1030px;
     }
 }

@@ -38,16 +38,18 @@
   font-size: 0.8em;
   font-style: normal;
 }
-@media only screen and (max-width: 1200px)  {
+@media only screen and (max-width: 600px)  {
   .FooterWrapper {
-      width: 1200px;
-      border-bottom: 5%;
+      width: 1208px;
   }
   .text {
     width: 700px;
   }
   .FooterContentWrapper {
     width: 100%;
+  }
+  .copy {
+    margin-bottom: 40px;
   }
 }
 
