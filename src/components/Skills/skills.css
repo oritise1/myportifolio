@@ -12,6 +12,7 @@
 }
 
 .skillbar {
+  margin-top: 20px;
   margin-right: 12px;
   background-color: #2351dc;
   bottom: 0;
@@ -33,7 +34,24 @@
   letter-spacing: -0.03em;
   color: #000000;
 }
-
+.css{
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+}
+.react {
+  width: 35px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 7px;
+  background-color: #2351dc;
+}
+.reactBack{
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  background-color: #2351dc;
+}
 .unreender {
   align-items: center;
   display: grid;
@@ -50,7 +68,7 @@
   .unreender {
     width: 100%;
     height: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     row-gap: 2%;
   }
 }

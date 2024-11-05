@@ -7,21 +7,21 @@ import { ReactComponent as Envelope } from "../../images/envelope.svg";
 const Footer = () => {
   return (
     <div className='FooterWrapper'>
-        <div className='FooterContentWrapper'>
-            <div className='columnTwo'></div>
-            <div className='text'>AbdulKareem Ibrahim <span style={{color:'blue'}}>.</span></div>
-            <div className='columnThree'></div>
+      <div className='FooterContentWrapper'>
+        <div className='columnTwo'></div>
+        <div className='text'>AbdulKareem Ibrahim <span style={{ color: 'blue' }}>.</span></div>
+        <div className='columnThree'></div>
+      </div>
+      <div>
+        <div className='Iconn'>
+          <a href='https://www.linkedin.com/in/abdulkareem-ibrahim-9530161a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' target={'_blank'} rel="noreferrer"><Linkedin style={{ marginRight: '24px' }} /></a>
+          <a href='https://twitter.com/oritse__success' target={'_blank'} rel="noreferrer"><Twitter style={{ marginRight: '24px' }} /></a>
+          <a href='mailto:ikareemabiodun730@gmail.com' target={'_blank'} rel="noreferrer"><Envelope /></a>
         </div>
-        <div>
-          <div className='Iconn'>
-            <a href='https://google.com' target={'_blank'}rel="noreferrer"><Linkedin style={{marginRight: '24px'}}/></a>
-            <a href='https://twitter.com/oritse__success' target={'_blank'}rel="noreferrer"><Twitter style={{marginRight: '24px'}} /></a>
-            <a href='mailto:ikareemabiodun730@gmail.com' target={'_blank'}rel="noreferrer"><Envelope /></a>
-          </div>
-          <div className='copy'>
-            <h2> Copyright &copy; 2021 | All Right Reserved</h2>
-          </div>
+        <div className='copy'>
+          <h2> Copyright &copy; 2021 | All Right Reserved</h2>
         </div>
+      </div>
     </div>
   )
 }

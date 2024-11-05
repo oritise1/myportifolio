@@ -3,6 +3,9 @@ import Words from "../Words";
 import "./skills.css";
 import { ReactComponent as Html } from "../../images/html.svg";
 import { ReactComponent as JavaScript } from "../../images/javascript.svg";
+import { ReactComponent as CSS } from "../../images/css.svg";
+import ReactLogo  from "../../images/react.png";
+
 const Skills = () => {
   
   return (
@@ -24,14 +27,16 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <JavaScript />
+          <CSS className="css"/>
           <div className="skills">
             <p className="html">CSS</p>
             <div className="skillbar"></div>
           </div>
         </div>
         <div>
-          <JavaScript />
+          <div className="reactBack">
+          <img src={ReactLogo} alt="react logo" className="react"/>
+          </div>
           <div className="skills">
             <p className="html">React</p>
             <div className="skillbar"></div>

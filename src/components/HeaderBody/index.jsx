@@ -20,7 +20,7 @@ const HeadBody = () => {
         >
           <Twitter className="twitter" />{" "}
         </a>
-        <a href="https://google.com" target={"_blank"} rel="noreferrer">
+        <a href="https://www.linkedin.com/in/abdulkareem-ibrahim-9530161a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target={"_blank"} rel="noreferrer">
           <LinkedIn />{" "}
         </a>
       </div>

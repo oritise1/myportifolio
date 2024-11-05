@@ -6,6 +6,9 @@
     background: #F6F8FE;
     padding: 80px 0;
 }
+.twitter {
+    margin: 0 5px;
+}
 @media only screen and (max-width: 600px)  {
     .abouts {
         width: 1240px;
