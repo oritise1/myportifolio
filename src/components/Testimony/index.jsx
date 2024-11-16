@@ -6,7 +6,7 @@ const Testimony = () => {
     <div className='ContctWrapper'>
         <div className="LefttWrapper">
             <div className='textt'>
-            Testimonies & Recommendations
+            Testimonies and Recomendation
             </div>
         </div>
         <div className='RighttWrapper'>

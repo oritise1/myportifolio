@@ -1,7 +1,7 @@
 import React from "react";
 import {ReactComponent as Twitter} from '../../images/twitter.svg'
 import {ReactComponent as LinkedIn} from '../../images/linkedin.svg'
-import Github from '../../images/github1.png'
+import { GithubLogo } from "@phosphor-icons/react"; 
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -12,10 +12,10 @@ export const Navbar = () => {
         </div>
         <div>
           <nav>
-          <a href="#about">About Me</a>
-          <a href="#service">Services</a>
-          <a href="#Lorem_Ipsum">Projects</a>
-          <a href="#contact">Contact Me</a>
+          <a href="#about" className="edit1">About Me</a>
+          <a href="#service" className="edit1">Services</a>
+          <a href="#project" className="edit1">Projects</a>
+          <a href="#contact" className="edit1">Contact Me</a>
           </nav>
         </div>
         <div className="IconWrapper">
@@ -31,7 +31,7 @@ export const Navbar = () => {
               target={"_blank"}
               rel="noreferrer"
             >
-              <img src={Github} alt='github logo' width='40px' height='40px' />
+              <GithubLogo size={38} color="#2b55d4" weight="fill"/>
             </a>
             <a href="https://www.linkedin.com/in/abdulkareem-ibrahim-9530161a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target={"_blank"} rel="noreferrer">
               <LinkedIn />{" "}

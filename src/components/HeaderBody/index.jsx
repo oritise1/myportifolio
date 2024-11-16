@@ -10,7 +10,7 @@ const HeadBody = () => {
         <h3 className="there">HI THERE</h3>
         <h3 className="name">I AM ABDULKAREEM IBRAHIM</h3>
         <h4 className="themes">
-          Developing applications (coding, programming) · Debugging and testing
+          Developing Web applications (coding, programming) · Debugging and testing
           code·
         </h4>
         <a

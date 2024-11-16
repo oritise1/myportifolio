@@ -1,6 +1,7 @@
 .services {
     width: fit-content;
     padding: 80px;
+    background-color: #fbfcfe;
 }
 .render{
     display: grid;
@@ -8,7 +9,7 @@
     column-gap: 5%;
     row-gap: 20px;
 }
-@media only screen and (max-width: 768px)  {
+@media screen and (max-width: 1150px) {
     .render {
         width: 100%;
         height: auto;

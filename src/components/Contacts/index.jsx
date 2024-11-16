@@ -12,8 +12,7 @@ const Contact = () => {
       <div className="LeftWrapper">
         <Words
           text="Get In Touch."
-          subtext="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec sollicitudin tellus. Phasellus ac nisi augue."
-        />
+          subtext='If you want to get in touch with us' />
         <div style={{ margin: "20px 0" }}>
           <div className="Icons">
             <a
@@ -28,21 +27,21 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        <div style={{ marginTop: 60 }}>
-          <div className="CIconWrapper">
+        <div style={{ marginTop: 60 }} className="contactImg">
+          <a href="mailto:ikareemabiodun730@gmail.com" target={'_blank'} rel="noreferrer" className="CIconWrapper" >
             <Gmail />
             <div>
               <p className="On">ikareemabiodun730@gmail.com</p>
               <p className="Non">Send a message Anytime!</p>
             </div>
-          </div>
-          <div className="CIconWrapper" style={{ marginTop:"32px", width: "28%" }}>
+          </a>
+          <a href="tel:+2349014263540" target={'_blank'} rel="noreferrer" className="CIconWrappers">
             <Phone />
             <div>
               <p className="On">+234-9067-813147 </p>
               <p className="Non">Call the Phone Anytime!</p>
             </div>
-          </div>
+          </a>
         </div>
       </div>
       <div className="RightWrapper">

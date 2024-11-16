@@ -60,7 +60,7 @@
   row-gap: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1150px) {
   .SkillsWrapper {
     width: 1080px;
   }

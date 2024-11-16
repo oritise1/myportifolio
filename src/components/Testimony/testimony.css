@@ -22,8 +22,9 @@
     width: 70%;
     padding: 80px;
 }
-@media only screen and (max-width: 600px)  {
+@media screen and (max-width: 1150px) {
     .ContctWrapper {
-        width: 1240px;
+        width: 1230px;
+        padding: 0 1%;
     }
 }

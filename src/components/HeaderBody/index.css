@@ -62,8 +62,8 @@
     border-radius: 50%;
     margin-left: -20px;
 }
-@media only screen and (max-width: 600px)  {
+@media screen and (max-width: 1150px) {
   .bodyWrapper {
-      width: 980px;
+      width: 85%;
   }
 }
