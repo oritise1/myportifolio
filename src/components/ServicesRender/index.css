@@ -10,11 +10,14 @@
     row-gap: 20px;
 }
 @media screen and (max-width: 1150px) {
+    .services{
+        width:1060px;
+    }
     .render {
-        width: 100%;
+        width: auto;
         height: auto;
         grid-template-columns: 1fr 1fr;
-        row-gap: 2%;
+        row-gap: 3%;
     }
   }
 
